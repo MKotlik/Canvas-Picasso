@@ -11,7 +11,8 @@ ctx.fillStyle = "#ff00ff";
 };*/
 
 clear.onclick = function(){
-	ctx.clearRect(0,0,400,400)
+	ctx.beginPath();
+	ctx.clearRect(0,0,400,400);
 }
 
 myCanvas.onmousedown = function(e){
